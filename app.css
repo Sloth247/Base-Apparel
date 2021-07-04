@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
@@ -5,16 +6,18 @@ body {
     max-width: 1440px;
     font-size: 35px;
     background-image: url(images/bg-pattern-desktop.svg);
-    object-fit: cover;
-    background: linear-gradient(135deg,  hsl(0, 0%, 100%), hsl(0, 100%, 98%)), linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+    background-repeat: none;
+
 }
 
 
 .left {
     width: 50%;
+    min-width: 700px;
     margin: 10px 120px 10px 150px;
     padding-right: 80px;
     position: relative;
+    
     
 }
 
@@ -40,7 +43,7 @@ body {
     font-size: 0.55em;
     color: hsl(0, 36%, 70%);
     line-height: 1.8;
-    padding-right: 150px;
+    padding-right: 130px;
     margin-bottom: 60px;
 }
 #form {
@@ -64,7 +67,7 @@ body {
 :focus {
     outline: none;
 }
-.left .arrow {
+.left #arrow {
     border:none;
     border: solid 1px transparent;
     border-radius: 40px;
@@ -76,13 +79,13 @@ body {
     cursor: pointer;
     filter: drop-shadow(0px 10px 10px hsl(0, 80%, 86%));
 }
-.arrow::hover, .arrow:focus {
+#arrow:hover, #arrow:focus {
     background: linear-gradient(135deg, hsl(0, 0%, 100%), to hsl(0, 100%, 98%));
     
 }
 
 .right {
-    width: 30%;  
+    width: 50%;  
     height: 100vh;
 }
 
