@@ -8,11 +8,11 @@ const arrow = document.getElementById('arrow')
 
 //form.onsubmit = submit;
 
-arrow.addEventListener('click', function (event) {
+form.addEventListener("submit", function (event) {
     if(email.validity.typeMismatch || email.validity.valueMissing) {
         // email.setCustomValidity('Please provide a valid email.');
-        error.classList.toggle('hidden');
-        errorArrow.classList.toggle('hidden');
+        error.classList.remove('hidden');
+        errorArrow.classList.remove('hidden');
         event.preventDefault();
     } else  {
         email.setCustomValidity(''); 
