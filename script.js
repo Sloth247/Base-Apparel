@@ -9,11 +9,11 @@ const arrow = document.getElementById('arrow')
 //form.onsubmit = submit;
 
 form.addEventListener("submit", function (event) {
+    event.preventDefault();
     if(email.validity.typeMismatch || email.validity.valueMissing) {
         // email.setCustomValidity('Please provide a valid email.');
         error.classList.remove('hidden');
         errorArrow.classList.remove('hidden');
-        event.preventDefault();
     } else  {
         email.setCustomValidity(''); 
     
@@ -21,8 +21,3 @@ form.addEventListener("submit", function (event) {
     
 });
 
-
-/* function invalid(event) {
-    error.classList('hidden').remove;
-    errorArrow.classList('hidden').remove;
-} */
