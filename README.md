@@ -32,21 +32,27 @@ Users should be able to:
 ### Screenshot
 
 - Desktop View at 1440px
+
   ![](./images/screenshot-desktop.png)
 
 - Mobile View at 375px
+
   ![](./images/screenshot-mobile.png)
 
 - Desktop View with an error message
+
   ![](./images/screenshot-desktop-error.png)
 
 - Error Message for Invalid Email Address
+
   ![](./images/screenshot-email-invalid.png)
 
 - Error Message for Empty Field
+
   ![](./images/screenshot-email-cannot-be-empty.png)
 
 - Error Message for Valid Email Input
+
   ![](./images/screenshot-email-valid.png)
 
 ### Links
