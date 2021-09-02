@@ -19,19 +19,19 @@ const emailValidation = () => {
   if (input.value.trim() === "") {
     errorMsg.innerHTML = "Email cannot be empty";
 
-    input.classList.add(".warning-active");
+    input.classList.add("warning-active");
     errorIcon.classList.add("error-show");
     return false;
   } else if (!isEmail(input.value.trim())) {
     errorMsg.innerHTML = "please provide a valid email address";
 
-    input.classList.add(".warning-active");
+    input.classList.add("warning-active");
     errorIcon.classList.add("error-show");
     return false;
   } else if (isEmail(input.value)) {
     errorMsg.innerHTML = "Success! Valid email address";
 
-    input.classList.remove(".warning-active");
+    input.classList.remove("warning-active");
     errorIcon.classList.remove("error-show");
     return true;
   }
@@ -40,6 +40,6 @@ const emailValidation = () => {
 
 input.addEventListener("input", () => {
   errorMsg.innerHTML = "";
-  input.classList.remove(".warning-active");
+  input.classList.remove("warning-active");
   errorIcon.classList.remove("error-show");
 });
