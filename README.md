@@ -114,7 +114,7 @@ I could have done the different way to position hero images by making desktop si
 
 ### Useful resources
 
-- [W3C ARIA の達成方法(in Jpaanese language)](https://waic.jp/docs/WCAG-TECHS/aria.htmlm) - This helped me how to markup HTML of error message and input field to acheive accessiblity.
+- [W3C ARIA の達成方法(in Japanese language)](https://waic.jp/docs/WCAG-TECHS/aria.htmlm) - This helped me how to markup HTML of error message and input field to acheive accessiblity.
 - [WAI-ARIA basics](https://developer.mozilla.org/ja/docs/Learn/Accessibility/WAI-ARIA_basics)
 
 ## Author
